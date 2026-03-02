@@ -1,0 +1,53 @@
+{
+    "$schema": "https://laravel-ide.com/schema/laravel-ide-v2.json",
+    "blade": {
+        "components": {
+            "viewPaths": [
+                {
+                    "path": "vendor/protonemedia/laravel-form-components/resources/views/bootstrap-4",
+                    "namespace": ""
+                }
+            ]
+        }
+    },
+    "completions": [
+        {
+            "complete": "directoryFiles",
+            "options": {
+                "directory": "/tests/Fixtures"
+            },
+            "condition": [
+                {
+                    "functionNames": ["fixture"],
+                    "parameters": [1]
+                }
+            ]
+        },
+        {
+            "complete": "configKey",
+            "options": {
+                "prefix": "preferences"
+            },
+            "condition": [
+                {
+                    "place": "parameter",
+                    "methodNames": ["setPreference", "getPreference"],
+                    "classFqn": ["App\\Traits\\HasPreferences"]
+                }
+            ]
+        },
+        {
+            "complete": "configKey",
+            "options": {
+                "prefix": "permissions"
+            },
+            "condition": [
+                {
+                    "place": "parameter",
+                    "methodNames": ["givePermissionTo"],
+                    "classFqn": ["\\Spatie\\Permission\\Traits\\HasPermissions"]
+                }
+            ]
+        }
+    ]
+}

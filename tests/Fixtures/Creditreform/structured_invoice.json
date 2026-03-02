@@ -1,0 +1,59 @@
+{
+    "clientId": "CR-MAHNWESEN-API-WAERMEWIMMER",
+    "invoiceDate": "2023-08-29",
+    "dueDate": "2023-08-29",
+    "invoiceNo": "string",
+    "debtorNo": "string",
+    "orderNo": "string",
+    "orderDate": "2023-08-29",
+    "notice": "string",
+    "gender": "Unknown",
+    "firstName": "string",
+    "name": "string",
+    "address": {
+        "street": "string",
+        "country": "string",
+        "postalCode": "string",
+        "city": "string",
+        "annex": "string"
+    },
+    "emailAddress": "string",
+    "emailAddressOnly4Dunnings": "string",
+    "phone": "string",
+    "netAmount": 0,
+    "grossAmount": 0,
+    "externalId": "string",
+    "contactPerson": {
+        "id": "string",
+        "gender": "Unknown",
+        "firstName": "string",
+        "name": "string",
+        "emailAddress": "string",
+        "address": {
+            "street": "string",
+            "country": "string",
+            "postalCode": "string",
+            "city": "string",
+            "annex": "string"
+        }
+    },
+    "discountConditions": [
+        {
+            "discountPercent": 0,
+            "paymentDays": 0
+        }
+    ],
+    "customFields": [
+        {
+            "name": "string",
+            "value": "string"
+        }
+    ],
+    "dunningStopUntilDate": "2023-08-29",
+    "documentBytes": "string",
+    "documentType": "PDF",
+    "attachmentDocumentBytes": "string",
+    "attachmentDocumentType": "PDF",
+    "debtorId": 0,
+    "overrideExistingDebtorData": true
+}

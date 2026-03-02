@@ -1,0 +1,23 @@
+{
+    "clientId": "08db6598-65f4-42ff-8ebe-d2f339e391f4",
+    "debtorNo": null,
+    "gender": "Company",
+    "firstName": "string",
+    "name": "string",
+    "address": {
+        "city": "Grünwald",
+        "annex": null,
+        "street": "Bavariafilmplatz 7",
+        "country": "DE",
+        "postalCode": "82031"
+    },
+    "emailAddress": null,
+    "phone": null,
+    "emailAddressOnly4Dunnings": null,
+    "debtorGroupId": 0,
+    "dunningStopUntilDate": "2024-02-07",
+    "dunningStopType": "ExistingInvoices",
+    "debtorId": 102255,
+    "creationTime": "2024-02-07T07:59:35.128Z",
+    "debtorGroupName": "string"
+}

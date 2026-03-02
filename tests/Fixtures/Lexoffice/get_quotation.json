@@ -1,0 +1,182 @@
+{
+    "id": "424f784e-1f4e-439e-8f71-19673e6d6583",
+    "organizationId": "aa93e8a8-2aa3-470b-b914-caad8a255dd8",
+    "createdDate": "2023-03-18T12:37:25.616+01:00",
+    "updatedDate": "2023-03-18T12:37:25.616+01:00",
+    "version": 1,
+    "language": "de",
+    "archived": false,
+    "voucherStatus": "open",
+    "voucherNumber": "AG0006",
+    "voucherDate": "2023-03-16T12:43:03.900+01:00",
+    "expirationDate": "2023-04-15T12:43:03.900+02:00",
+    "address": {
+        "contactId": "97c5794f-8ab2-43ad-b459-c5980b055e4d",
+        "name": "Berliner Kindl GmbH",
+        "street": "Jubiläumsweg 25",
+        "city": "Berlin",
+        "zip": "14089",
+        "countryCode": "DE"
+    },
+    "lineItems": [
+        {
+            "type": "text",
+            "name": "Vorgangsnummer: TKT-230112-131309",
+            "lineItemTemplateVersion": 0,
+            "optional": false,
+            "alternative": false
+        },
+        {
+            "type": "custom",
+            "name": "Heizung - Wartung Gasheizkessel ",
+            "description": "Vollständig symmetrisches Design in metallicfarbener Ausführung.",
+            "quantity": 1,
+            "unitName": "Piece",
+            "unitPrice": {
+                "currency": "EUR",
+                "netAmount": 255.63,
+                "grossAmount": 304.20,
+                "taxRatePercentage": 19.00
+            },
+            "discountPercentage": 0,
+            "lineItemAmount": 255.63,
+            "lineItemTemplateVersion": 0,
+            "optional": false,
+            "alternative": false
+        },
+        {
+            "type": "custom",
+            "name": "Rohrnetz Verrohrung",
+            "description": "· 9,5 mm starkes, smoke-mattes Spiralkabel mit integrierter.",
+            "quantity": 1,
+            "unitName": "Piece",
+            "unitPrice": {
+                "currency": "EUR",
+                "netAmount": 19.28,
+                "grossAmount": 22.94,
+                "taxRatePercentage": 19.00
+            },
+            "discountPercentage": 0,
+            "lineItemAmount": 19.28,
+            "lineItemTemplateVersion": 0,
+            "optional": false,
+            "alternative": false
+        },
+        {
+            "type": "custom",
+            "name": "Regelungstechnik ",
+            "description": "Foglende Arbeiten werden bei der Wartung für die Regelungstechnik durchgeführt",
+            "quantity": 1,
+            "unitName": "Piece",
+            "unitPrice": {
+                "currency": "EUR",
+                "netAmount": 19.60,
+                "grossAmount": 23.32,
+                "taxRatePercentage": 19.00
+            },
+            "discountPercentage": 0,
+            "lineItemAmount": 19.60,
+            "lineItemTemplateVersion": 0,
+            "optional": false,
+            "alternative": false
+        },
+        {
+            "type": "custom",
+            "name": "Druckhaltung Ausdehngefäße",
+            "description": "Wartung der Druckhaltung Expansionsgefäße ",
+            "quantity": 1,
+            "unitName": "Piece",
+            "unitPrice": {
+                "currency": "EUR",
+                "netAmount": 39.87,
+                "grossAmount": 47.45,
+                "taxRatePercentage": 19.00
+            },
+            "discountPercentage": 0,
+            "lineItemAmount": 39.87,
+            "lineItemTemplateVersion": 0,
+            "optional": false,
+            "alternative": false
+        },
+        {
+            "type": "custom",
+            "name": "Gasschau  - Gashausschau nach TRGI - Einfamilienhaus  Stk",
+            "description": "Gashausschau nach TRGI",
+            "quantity": 1,
+            "unitName": "Piece",
+            "unitPrice": {
+                "currency": "EUR",
+                "netAmount": 26.90,
+                "grossAmount": 32.01,
+                "taxRatePercentage": 19.00
+            },
+            "discountPercentage": 0,
+            "lineItemAmount": 26.90,
+            "lineItemTemplateVersion": 0,
+            "optional": false,
+            "alternative": false
+        },
+        {
+            "type": "custom",
+            "name": "Solarthermieanlage",
+            "quantity": 1,
+            "unitName": "Piece",
+            "unitPrice": {
+                "currency": "EUR",
+                "netAmount": 86.89,
+                "grossAmount": 103.40,
+                "taxRatePercentage": 19.00
+            },
+            "discountPercentage": 0,
+            "lineItemAmount": 86.89,
+            "lineItemTemplateVersion": 0,
+            "optional": false,
+            "alternative": false
+        },
+        {
+            "type": "custom",
+            "name": "Wärmetauscher Gegenströmer - Wärmetauscher Gegenströmer - bis 35 KW Stk ",
+            "description": "Wärmetauscher oder Gegenströmer ",
+            "quantity": 1,
+            "unitName": "Piece",
+            "unitPrice": {
+                "currency": "EUR",
+                "netAmount": 48.76,
+                "grossAmount": 58.02,
+                "taxRatePercentage": 19.00
+            },
+            "discountPercentage": 0,
+            "lineItemAmount": 48.76,
+            "lineItemTemplateVersion": 0,
+            "optional": false,
+            "alternative": false
+        }
+    ],
+    "totalPrice": {
+        "currency": "EUR",
+        "totalNetAmount": 496.93,
+        "totalGrossAmount": 591.35,
+        "totalTaxAmount": 94.42
+    },
+    "taxAmounts": [
+        {
+            "taxRatePercentage": 19.00,
+            "taxAmount": 94.42,
+            "netAmount": 496.93
+        }
+    ],
+    "taxConditions": {
+        "taxType": "net"
+    },
+    "paymentConditions": {
+        "paymentTermLabel": "Zahlbar innerhalb von 7 Tagen ab Rechnungsstellung",
+        "paymentTermLabelTemplate": "Zahlbar innerhalb von 7 Tagen ab Rechnungsstellung",
+        "paymentTermDuration": 7
+    },
+    "relatedVouchers": [],
+    "introduction": "Jährlicher Wartungsvertrag mit 24 H Notdienst und 8 Std.",
+    "files": {
+        "documentFileId": "284449f2-7bab-4a7c-97aa-93c03115e1d1"
+    },
+    "title": "Angebot Wartungsvertrag"
+}
